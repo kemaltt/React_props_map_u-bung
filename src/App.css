@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h5 {
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+
+/* Lev1_3================================= */
+
+.list {
+    position: relative;
+    text-align: left;
+    padding: 3vh 5%;
+    line-height: 30px;
+}
+
+.list h1 {
+    margin-bottom: 2vh;
+}
+
+.list h1::first-letter {
+    font-size: 50px;
+    color: brown;
+}
+
+.list h1:hover::first-letter {
+    color: blue;
+}
+
+ul {
+    list-style: none;
+    position: relative;
+}
+
+.list ul:nth-of-type(1) li {
+    text-decoration: line-through;
+}
+
+.list ul:nth-of-type(2) li {
+    text-decoration: line-through;
+}
+
+.list ul:nth-of-type(5) li {
+    text-decoration: underline;
+}
+
+.list ul:nth-of-type(6) li {
+    text-decoration: underline;
+}
+
+.list ul:nth-of-type(1) img:nth-of-type(1) {
+    position: absolute;
+    top: 0;
+    left: -3%;
+}
+
+.list ul:nth-of-type(1) img:nth-of-type(2) {
+    position: absolute;
+    top: 0;
+    left: 8%;
+}
+
+.list ul:nth-of-type(2) img:nth-of-type(1) {
+    position: absolute;
+    top: 2%;
+    left: -3%;
+}
+
+.list ul:nth-of-type(2) img:nth-of-type(2) {
+    position: absolute;
+    top: 2%;
+    left: 8%;
+}
+
+.list ul:nth-of-type(3) img:nth-of-type(1) {
+    position: absolute;
+    top: 2%;
+    left: -3%;
+}
+
+.list ul:nth-of-type(3) img:nth-of-type(2) {
+    position: absolute;
+    top: 2%;
+    left: 9%;
+}
+
+.list ul:nth-of-type(4) img:nth-of-type(1) {
+    position: absolute;
+    top: 2%;
+    left: -3%;
+}
+
+.list ul:nth-of-type(4) img:nth-of-type(2) {
+    position: absolute;
+    top: 2%;
+    left: 8%;
+}
+
+.list ul:nth-of-type(5) img:nth-of-type(1) {
+    position: absolute;
+    top: 2%;
+    left: -3%;
+}
+
+.list ul:nth-of-type(5) img:nth-of-type(2) {
+    position: absolute;
+    top: 2%;
+    left: 9%;
+}
+
+.list ul:nth-of-type(6) img:nth-of-type(1) {
+    position: absolute;
+    top: 2%;
+    left: -3%;
+}
+
+.list ul:nth-of-type(6) img:nth-of-type(2) {
+    position: absolute;
+    top: 2%;
+    left: 10%;
+}
+
+
+/* Lev2_1=========================================== */
+
+.product {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+    padding: 4vh 4%;
+    line-height: 35px;
+}
+
+.product_container h1 {
+    text-align: center;
+}
+
+.product_card img {
+    width: 100%;
+}
+
+.product_card button {
+    background: #DA7371;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/* Lev 3_2============================================================ */
+
+.faq_container {
+    background-color: #050121;
+    padding: 10px;
+    position: relative;
+    margin: 4vh 0;
+}
+
+i:nth-of-type(1) {
+    position: absolute;
+    top: 32%;
+    right: 5%;
+}
+
+i:nth-of-type(2) {
+    position: absolute;
+    top: 49%;
+    right: 5%;
+}
+
+i:nth-of-type(3) {
+    position: absolute;
+    top: 65%;
+    right: 5%;
+}
+
+i:nth-of-type(4) {
+    position: absolute;
+    top: 80%;
+    right: 5%;
+}
+
+.faq_container h1 {
+    font-size: 4rem;
+    color: #38C8A2;
+    margin: 3vh 5%;
+}
+
+.Collapsible {
+    color: #38C8A2;
+    font-size: 2rem;
+    margin: 3vh 10%;
+}
+
+.Collapsible p {
+    font-size: 1rem;
+    margin: 2vh 0;
+}
+
+
+/* React map lev 1_1====================================================== */
+
+.movie_list {
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    padding: 4vh 4%;
+}
+
+.movie_card {
+    background-color: rgba(0, 0, 0, 0.596);
+    border-radius: 5px;
+    padding: 5vh 2%;
+    color: #fff;
+    width: 180px;
+    line-height: 30px;
+}
