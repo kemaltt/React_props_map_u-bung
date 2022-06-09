@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React_props_map_u-bung/static/css/main.978eb226.css",
+    "main.js": "/React_props_map_u-bung/static/js/main.46e0b6a6.js",
+    "index.html": "/React_props_map_u-bung/index.html",
+    "main.978eb226.css.map": "/React_props_map_u-bung/static/css/main.978eb226.css.map",
+    "main.46e0b6a6.js.map": "/React_props_map_u-bung/static/js/main.46e0b6a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.978eb226.css",
+    "static/js/main.46e0b6a6.js"
+  ]
+}
