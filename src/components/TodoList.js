@@ -39,9 +39,38 @@ const TodoList = () => {
       <h5> Reactjs Lev1_3 </h5>
       <div className="list">
         <h1> To do list </h1>
-        {data.map((el, i) => (
-          <TodoItem key={i} text={el.text} img1={el.img1} img2={el.img2} />
-        ))}
+        <ul>
+          <TodoItem
+            text={data[0].text}
+            img1={data[0].img1}
+            img2={data[0].img2}
+          />
+          <TodoItem
+            text={data[1].text}
+            img1={data[1].img1}
+            img2={data[1].img2}
+          />
+          <TodoItem
+            text={data[2].text}
+            img1={data[2].img1}
+            img2={data[2].img2}
+          />
+          <TodoItem
+            text={data[3].text}
+            img1={data[3].img1}
+            img2={data[3].img2}
+          />
+          <TodoItem
+            text={data[4].text}
+            img1={data[4].img1}
+            img2={data[4].img2}
+          />
+          <TodoItem
+            text={data[5].text}
+            img1={data[5].img1}
+            img2={data[5].img2}
+          />
+        </ul>
       </div>
     </div>
   );
